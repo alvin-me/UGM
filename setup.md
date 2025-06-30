@@ -9,12 +9,12 @@
 ## 安装
 
 - 下载源码，以下两种方式选择一种
-  - git: `git clone https://github.com/Ubpa/UGM` 
-  - https://github.com/Ubpa/UGM/archive/master.zip（解压）
+  - git: `git clone https://github.com/alvin-me/UGM` 
+  - https://github.com/alvin-me/UGM/archive/master.zip（解压）
 - 打开 CMake-GUI
   - 在 `Where is the source code` 栏中填写 `<your-path-to-UGM>` 
   - 在 `Where to build the binaries` 栏中填写 `<your-path-to-UGM>/build` 
-  - 点击 Configure，期间会下载 [UCMake](https://github.com/Ubpa/UCMake) 和 [UTemplate](https://github.com/Ubpa/UTemplate) 到目录 `build/_deps/`（如若下载失败，多试几次或者翻墙再试，直至成功无错）
+  - 点击 Configure，期间会下载 [UCMake](https://github.com/alvin-me/UCMake) 和 [UTemplate](https://github.com/alvin-me/UTemplate) 到目录 `build/_deps/`（如若下载失败，多试几次或者翻墙再试，直至成功无错）
   - 在 CMake-GUI 中间的配置框中
     - 找到 `CMAKE_INSTALL_PREFIX`（安装位置），改成其他位置（非 C 盘，因为安装到 C 盘需要管理员权限，会有很多麻烦），如 `D:/Program_Files/Ubpa`（注意一定要以 `Ubpa` 结尾），记为 `<install-path>`
     - 你还可以配置其他选项
